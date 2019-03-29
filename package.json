@@ -1,0 +1,16 @@
+{
+  "name": "miniprogram-custom-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "miniprogram": "src",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifanrx/miniprogram-custom-component.git"
+  },
+  "author": "ifanx",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
