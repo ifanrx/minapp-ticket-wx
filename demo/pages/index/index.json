@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "ticket-report-wrapper": "../../components/minapp-ticket-tx/index"
+    "ticket-report-wrapper": "../../components/minapp-ticket-wx/index"
   }
 }
