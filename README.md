@@ -1,1 +1,1 @@
-# miniprogram-custom-component
+# minapp-ticket-wx
