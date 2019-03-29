@@ -18,9 +18,12 @@ Component({
       wx.BaaS.wxReportTicket(e.detail.formId)
     },
     handleTap() {
-      this.setData({
-        hideButton: true,
-      })
+      const {disappearAfterClick} = this.data
+      if (disappearAfterClick) {
+        this.setData({
+          hideButton: true,
+        })
+      }
     },
   },
 })
