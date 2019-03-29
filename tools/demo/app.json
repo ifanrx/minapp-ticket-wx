@@ -7,5 +7,11 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "plugins": {
+    "sdkPlugin": {
+      "version": "2.0.2",
+      "provider": "wxc6b86e382a1e3294"
+    }
   }
 }
