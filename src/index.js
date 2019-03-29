@@ -6,7 +6,7 @@ Component({
     }
   },
   data: {
-    tapped: false,
+    hideButton: false,
   },
   methods: {
     reportTicket: e => {
@@ -14,7 +14,7 @@ Component({
     },
     handleTap() {
       this.setData({
-        tapped: true,
+        hideButton: true,
       })
     },
   },
