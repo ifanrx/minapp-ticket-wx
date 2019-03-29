@@ -1,0 +1,6 @@
+demo/config.js
+demo/miniprogram_npm/
+demo/project.config.json
+npm-debug.log
+components/
+node_modules/

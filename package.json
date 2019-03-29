@@ -4,13 +4,21 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {},
+  "files": [
+    "src"
+  ],
   "miniprogram": "src",
+  "scripts": {
+    "dev": "cd demo && yarn && cd ../ && gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ifanrx/minapp-ticket-wx.git"
   },
   "author": "ifanx",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
   "dependencies": {}
 }
