@@ -8,7 +8,7 @@
   ],
   "miniprogram": "src",
   "scripts": {
-    "dev": "cd demo && yarn && cd ../ && gulp"
+    "dev": "cd demo && yarn && cd ../ && yarn && gulp"
   },
   "repository": {
     "type": "git",
