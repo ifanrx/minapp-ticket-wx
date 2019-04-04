@@ -1,1 +1,11 @@
-<ticket-report-wrapper class='ticket-report-wrapper'>收集 formId</ticket-report-wrapper>
+<view class="padding-10 font-size-14 flex color-red text-center">
+  <ticket-report-wrapper class="flex-1 color-blue text-center">
+    <view class="margin-10 color-yellow" catch:tap="handleTap" data-index="1">1（禁止了事件冒泡，无法上报 formId）</view>
+    <view class="margin-10 color-yellow" bind:tap="handleTap" data-index="2">2</view>
+    <view class="margin-10 flex text-center">
+      <view bind:tap="handleTap" data-index="3" class="flex-1 color-yellow">3</view>
+      <view bind:tap="handleTap" data-index="4" class="flex-1 color-yellow">4</view>
+      <view bind:tap="handleTap" data-index="5" class="flex-1 color-yellow">5</view>
+    </view>
+  </ticket-report-wrapper>
+</view>

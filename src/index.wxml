@@ -1,4 +1,6 @@
 <form class="ticket-report-wrapper" bindsubmit="reportTicket" report-submit>
-  <button wx:if="{{!hideButton}}" class="ticket-report-mask" form-type="submit" bind:tap='handleTap' />
-  <slot></slot>
+  <button id='button' class="submit-buton" form-type="submit" />
+  <label for="button">
+    <slot></slot>
+  </label>
 </form>

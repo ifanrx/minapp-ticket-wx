@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "minapp-sdk": "^2.0.5-a"
+    "minapp-sdk": "^1.12.0"
   }
 }
