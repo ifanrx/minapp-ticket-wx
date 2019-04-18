@@ -1,1 +1,0 @@
-# minapp-ticket-wx
