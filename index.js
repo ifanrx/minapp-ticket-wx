@@ -6,7 +6,7 @@ Component({
   },
   methods: {
     reportTicket: e => {
-      wx.BaaS.wxReportTicket(e.detail.formId)
+      wx.BaaS.wxReportTicket(e.detail.formId, {enableThrottle: true})
     },
   },
 })
